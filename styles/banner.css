@@ -1,0 +1,36 @@
+.banner{
+    background: linear-gradient(#002F52,#326589);
+    color: var(--cor-branca);
+    text-align: center;
+    padding: 2em 2.5em;
+}
+
+.banner h2{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.banner p{
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+#busca{
+    border: 2px solid var(--cor-branca);
+    background-color: transparent;
+    padding: 10px 24px;
+    border-radius: 24px;
+    color: var(--cor-branca);
+    width: 100%;
+    text-align: center;
+}
+
+.banner input::placeholder{
+    color: var(--cor-branca);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../img-banner/Vector.svg");
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}

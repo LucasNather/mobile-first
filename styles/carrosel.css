@@ -1,0 +1,70 @@
+.carrosel h2{
+    color: var(--laranja);
+    background-color: var(--cor-branca);
+    padding: 1em 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: .5em 0;
+}
+
+.card{
+    margin: 1em;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0px, 4px
+    rgba(0, 0, 0, 0.25);
+    background-color: var(--cor-branca);
+    box-shadow: 2px 0px 5px #000;
+}
+
+.descricao{
+    display: flex;
+    justify-content: space-between;
+    margin: .7em 0;
+}
+
+.container-descricao{
+    margin-right:1em ;
+}
+
+.container-descricao h3{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.container-descricao h2{
+    color: var(--cor-azul-secundario);
+    font-weight: 700;
+    font-size: 18px;
+    margin: .5em 0;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem-botoes{
+    display: flex;
+    align-items: center;
+}
+
+.botoes a{
+    background-color: var(--laranja);
+    padding: 1em 2.3em;
+    color: var(--cor-branca);
+    text-decoration: none;
+    font-weight: 700;
+}
+

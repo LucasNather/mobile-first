@@ -1,0 +1,30 @@
+.novidades{
+    padding: 2em;
+    background-color: var(--cor-branca);
+}
+.novidades h2{
+    color: var(--azul-escuro-secundario);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.novidades p{
+    font-weight: 300;
+    color: var(--azul-escuro-secundario);
+    margin: .8em 0;
+}
+
+.novidades input{
+    width: calc(100% - 48px);
+    border: 2px solid var(--azul-escuro-secundario);
+    border-radius: 10px;
+    padding: 10px 24px;
+    background-image: url("../img/Vector\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.novidades input::placeholder{
+    color: var(--azul-escuro-secundario);
+    padding: .5em;
+}

@@ -1,0 +1,29 @@
+.topicos {
+    background: linear-gradient(#002F52,#326589);
+    text-align: center;
+    padding: 1em;
+}
+
+.topicos h2{
+    color: var(--cor-branca);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+
+.topicos ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos a{
+    background-color: var(--laranja);
+    padding: 1em;
+    display: inline-block;
+    margin: 1em .5em;
+    color: var(--cor-branca);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}

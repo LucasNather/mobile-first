@@ -32,5 +32,6 @@
     font-family: 'Poppins', sans-serif;
     background-image: url("../img-banner/Vector.svg");
     background-repeat: no-repeat;
+    background-position: center;
     padding-left: 10px;
 }

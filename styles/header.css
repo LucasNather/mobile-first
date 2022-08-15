@@ -112,6 +112,30 @@ li.titulo{
         display: none;
     }
     
+    #categorias:checked ~ .lista{
+        display: block;
+    }
+
+    .lista{
+        top: 7%;
+        width: 20%;
+    }
+
+    .lista li{
+        padding: 1em;
+        background-color: var(--cor-branca);
+    }
+    
+    li.titulo{
+        color: var(--laranja);
+        font-weight: 700;
+    }
+    
+    .lista a {
+        color: var(--azul-escuro);
+        text-decoration: none;
+        text-transform: uppercase;
+    }
 }
 
 @media screen and (min-width:1728px){
@@ -128,5 +152,10 @@ li.titulo{
 
     .opcoes{
         margin-right:  auto;
+    }
+
+    .lista{
+        top: 4%;
+        width: 20%;
     }
 }

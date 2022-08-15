@@ -27,3 +27,21 @@
     font-weight: 700;
     font-size: 14px;
 }
+
+@media screen and (min-width:1024px){
+    .topicos h2,
+    .topicos a{
+        font-size: 24px;
+    }
+
+    .topicos ul{
+        margin: 0 2em;
+    }
+}
+
+@media screen and (min-width:1728px){
+    .topicos ul{
+        width: 50%;
+        margin: 0 auto;
+    }
+}

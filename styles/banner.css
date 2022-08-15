@@ -33,5 +33,27 @@
     background-image: url("../img-banner/Vector.svg");
     background-repeat: no-repeat;
     background-position: center left;
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+@media screen and (min-width:1024px){
+    .banner h2{
+        font-size: 36px;
+    }
+    #busca{
+        width: 50%;
+    }
+    .banner input::placeholder{
+        background-position: 5.5em;
+    }
+}
+
+@media screen and (min-width:1728px){
+    #busca{
+        width: 30%;
+    }
+
+    .banner input::placeholder{
+        background-position: 6.5em;
+    }
 }

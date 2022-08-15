@@ -3,3 +3,52 @@ footer{
     background-color: var(--cor-branca);
     padding: 1em;
 }
+
+footer ul{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer ul{
+        display: block
+    }
+
+    footer ul li:first-child{
+        font-size: 14px;
+        color: #858585;
+        text-transform: uppercase;
+    }
+
+    footer li{
+        margin: 10px 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer ul a{
+        font-size: 14px;
+        margin-left: 10px;
+        color: #474646;
+        text-decoration: none;
+    }
+
+    footer h2{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:1728px){
+    footer{
+        padding: 3em 0;
+    }
+
+    .rodape ul{
+        border-left: 1px solid #858585;
+        padding-left: 1.5em;
+    }
+}

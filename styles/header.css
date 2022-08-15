@@ -112,26 +112,6 @@ li.titulo{
         display: none;
     }
     
-    .categorias-checado:checked ~ .lista{
-        display: block;
-        width: auto;
-    }
-
-    .lista li{
-        padding: 1em;
-        background-color: var(--cor-branca);
-    }
-    
-    li.titulo{
-        color: var(--laranja);
-        font-weight: 700;
-    }
-    
-    .lista a {
-        color: var(--azul-escuro);
-        text-decoration: none;
-        text-transform: uppercase;
-    }
 }
 
 @media screen and (min-width:1728px){
